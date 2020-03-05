@@ -1,0 +1,18 @@
+parameters:
+	autoload_files:
+		- vendor/bin/.phpunit/phpunit-8.3-0/vendor/autoload.php
+	inferPrivatePropertyTypeFromConstructor: true
+	ignoreErrors:
+		# https://github.com/symfony/symfony/pull/33278
+		- '#KernelBrowser#'
+		# False positive
+		- '#getClient#'
+		- '#Result of && is always false\.#'
+		- '#Ternary operator condition is always false\.#'
+		- '#Call to function method_exists\(\) with #'
+		# To fix in PHP WebDriver
+		- '#Parameter \#2 \$desired_capabilities of static method Facebook\\WebDriver\\Remote\\RemoteWebDriver::create\(\) expects array\|Facebook\\WebDriver\\Remote\\DesiredCapabilities\|null, Facebook\\WebDriver\\WebDriverCapabilities given\.#'
+		# Require a redesign of the underlying Symfony components
+		- '#Call to an undefined method DOMNode::getTagName\(\)\.#'
+		- '#Panther\\[a-zA-Z\\]+::__construct\(\) does not call parent constructor from Symfony\\Component\\(BrowserKit|DomCrawler)\\[a-zA-Z]+\.#'
+		- '#Return type \(void\) of method Symfony\\Component\\Panther\\DomCrawler\\Crawler::clear\(\) should be compatible with return type \(Facebook\\WebDriver\\WebDriverElement\) of method Facebook\\WebDriver\\WebDriverElement::clear\(\)#'
