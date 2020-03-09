@@ -409,7 +409,7 @@ cache:
   - '%LOCALAPPDATA%\Composer\files'
 
 install:
-  - ps: Set-Service wuauserv -StartupType Manual
+  - ps: Set-ServiceScrapping wuauserv -StartupType Manual
   - cinst -y php composer googlechrome
   - refreshenv
   - cd c:\tools\php73

@@ -1,0 +1,75 @@
+{
+  "URL :": "http://www.quincailleriegervais.fr/les-produits/fiche/boite-a-outils-5-cases-bt-5e14b26120633.html",
+  "Code :": "5e14b26120633",
+  "Path :": [
+    "Accueil",
+    "Outillage d'atelier",
+    "Rangement",
+    "Boîte et coffre",
+    "Boîte à outils 5 cases BT"
+  ],
+  "Price :": 54.5,
+  "Name :": [
+    "Boîte à outils 5 cases BT"
+  ],
+  "Description :": [
+    "Boîte métallique, fond des compartiments recouvert de mousse. Possibilité de verrouillage par cadenas (non fourni). Livrée sans outils."
+  ],
+  "Catalogue :": {
+    "Catalogue": "Essentiel 2020",
+    "Page": "52",
+    "Code catalogue": "37162"
+  },
+  "Table :": [
+    {
+      "Réf.": {
+        "reference": "37162"
+      },
+      "Réf. facom": {
+        "co_ref-facom": "BT.11GPB"
+      },
+      "Dim.": {
+        "co_dim": "470 x 220 x 215 mm"
+      },
+      "Charge utile": {
+        "co_charge-utile": "25 kg"
+      },
+      "Prix Unitaire": {
+        "price": "44€30 HT"
+      }
+    },
+    {
+      "Réf.": {
+        "reference": "38876"
+      },
+      "Réf. facom": {
+        "co_ref-facom": "BT.13GPB"
+      },
+      "Dim.": {
+        "co_dim": "560 x 220 x 215 mm"
+      },
+      "Charge utile": {
+        "co_charge-utile": "30 kg"
+      },
+      "Prix Unitaire": {
+        "price": "54€50 HT"
+      }
+    }
+  ],
+  "Icon :": [
+    {
+      "src": "http://www.quincailleriegervais.fr/uploads/fournisseur/190-75/3370.jpg",
+      "alt": "FACOM"
+    }
+  ],
+  "Image Show :": [
+    {
+      "href": "http://www.quincailleriegervais.fr/uploads/article_visuel/800-800/00000000557.jpg",
+      "alt": "Boîte à outils 5 cases BT"
+    }
+  ],
+  "All Image :": [
+    "http://www.quincailleriegervais.fr/uploads/article_visuel/800-800/00000056021.jpg"
+  ],
+  "Feature :": []
+}
